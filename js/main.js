@@ -3,6 +3,9 @@ const btnPrev = document.querySelector('.btnPrev');
 const btnNext = document.querySelector('.btnNext');
 const item = document.querySelectorAll('.slides');
 
+// default
+btnPrev.style.pointerEvents = "none";
+
 // check, when we need turn on the button(btnNext)
 const trackCheck = track.getBoundingClientRect();
 const doc = document.documentElement.getBoundingClientRect();
